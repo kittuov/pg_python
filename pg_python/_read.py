@@ -36,7 +36,7 @@ def prepare_values(all_values, keys_to_get):
 
 
 class where:
-    def __init__(self, kv_map, clause="=", join_clause="and"):
+    def __init__(self, kv_map, clause="=", join_clause="AND"):
         self.kv_map = kv_map
         self.clause = clause
         self.join_clause = join_clause
